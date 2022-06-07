@@ -10,9 +10,9 @@ public class WrapperClassConvert {
 
 	public static Object convertToWrapper(Object value) {
 
-		Class valueClass = value.getClass();
+		Class valueCl = value.getClass();
 
-		if (value == null || valueClass.isPrimitive()) {
+		if (value == null || valueCl.isPrimitive()) {
 			System.out.println("Give proper primitive as input");
 		}
 
